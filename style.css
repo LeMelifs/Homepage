@@ -1,0 +1,126 @@
+.snow_wrap{
+    height: 100vh;
+    width: 100%;
+    background: url("background.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+    overflow: hidden;
+}
+
+.snow, .snow:after, .snow:before{
+    content: "";
+    position: absolute;
+    top: -650px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:
+            radial-gradient(4px 4px at 100px 50px, #fff, transparent),
+            radial-gradient(6px 6px at 200px 150px, #fff, transparent),
+            radial-gradient(3px 3px at 300px 250px, #fff, transparent),
+            radial-gradient(4px 4px at 400px 350px, #fff, transparent),
+            radial-gradient(6px 6px at 500px 100px, #fff, transparent),
+            radial-gradient(5px 5px at 50px 200px, #fff, transparent),
+            radial-gradient(3px 3px at 150px 300px, #fff, transparent),
+            radial-gradient(4px 4px at 250px 400px, #fff, transparent),
+            radial-gradient(6px 6px at 350px 500px, #fff, transparent),
+            radial-gradient(5px 5px at 430px 700px, #fff, transparent),
+            radial-gradient(3px 3px at 450px 800px, #fff, transparent),
+            radial-gradient(4px 4px at 500px 670px, #fff, transparent),
+            radial-gradient(6px 6px at 70px 620px, #fff, transparent),
+            radial-gradient(3px 3px at 230px 500px, #fff, transparent),
+            radial-gradient(5px 5px at 530px 920px, #fff, transparent);
+    background-size: 650px 650px;
+    animation: snowAnimation 4s linear;
+    animation-iteration-count: infinite;
+    z-index: 3;
+}
+
+.snow:after{
+    margin-left: -250px;
+    opacity: 0.5;
+    filter: blur(2px);
+}
+
+.snow:before{
+    margin-left: -350px;
+    opacity: 0.7;
+    filter: blur(1px);
+}
+
+@keyframes snowAnimation {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(650px);
+    }
+}
+
+#art {
+    z-index: 1;
+    position: absolute;
+    width: 25%;
+    height: auto;
+    top: 90px;
+    left: 140px;
+    box-shadow: 0px 0px 500px 20px #521212;
+    animation: imageAnimation 3s forwards;
+}
+
+
+@keyframes imageAnimation{
+    from {
+        transform: translateY(-650px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+#border{
+    position: absolute;
+    width: 27%;
+    height: 78%;
+    top: 70px;
+    left: 120px;
+    z-index: 1;
+    animation: borderAnimation 3s forwards;
+}
+
+@keyframes borderAnimation{
+    from {
+        transform: translateY(-650px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+h1{
+    position: absolute;
+    font-family: "Brush Script MT";
+    font-size: 10vw;
+    text-transform: uppercase;
+    z-index: 2;
+    line-height: 1;
+    font-weight: bolder;
+    top: 470px;
+    left: 83px;
+    color: white;
+}
+
+.images{
+    backdrop-filter: blur(7px);
+    height: 100%;
+}
+
+
+
+
+
+
+

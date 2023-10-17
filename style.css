@@ -103,27 +103,27 @@
 
 h1{
     position: absolute;
-    font-family: "Colonna MT", serif;
-    font-size: 560%;
+    font-family: Algerian, serif;
+    font-size: 452%;
     text-transform: uppercase;
     z-index: 3;
     font-weight: bolder;
-    top: 533px;
-    left: 151px;
+    top: 538px;
+    left: 191px;
     color: white;
-    box-shadow: -1px -1px 200px 1px #000000;
+    box-shadow: -1px -1px 100px 1px #000000;
     animation: headersAnimation 3s forwards;
 }
 
 h2{
     position: absolute;
-    font-family: "Colonna MT", serif;
-    font-size: 187%;
+    font-family: Algerian, serif;
+    font-size: 188%;
     text-transform: uppercase;
     z-index: 2;
     font-weight: bolder;
-    top: 635px;
-    left: 324px;
+    top: 626px;
+    left: 395px;
     color: #521212;
     animation: headersAnimation 3s forwards;
 }
@@ -140,7 +140,6 @@ h3{
     background: linear-gradient(30deg, #521212 50%, #ffffff 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: #521212;
 }
 
 @keyframes headersAnimation{
@@ -163,7 +162,7 @@ h3{
     border-left: 1px solid white;
     height: 800px;
     position: absolute;
-    left: 640px;
+    left: 650px;
     top: 0;
     filter: blur(1px);
 }
@@ -193,6 +192,23 @@ h3{
     z-index: 3;
     filter: blur(1px);
 }
+
+p{
+    font-family: "Book Antiqua", serif;
+    font-size: 150%;
+    left: 800px;
+    top: 195px;
+    width: 500px;
+    position: absolute;
+    z-index: 3;
+    color: white;
+}
+
+
+
+
+
+
 
 
 

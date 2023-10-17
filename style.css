@@ -1,9 +1,8 @@
 .snow_wrap{
     height: 100vh;
     width: 100%;
-    background: url("background.jpg");
     background-size: cover;
-    background-position: center bottom;
+    background: url("background.jpg") center bottom;
     position: relative;
     overflow: hidden;
 }
@@ -61,14 +60,14 @@
 #art {
     z-index: 1;
     position: absolute;
+    min-width: 390px;
+    min-height: 530px;
     width: 25%;
-    height: auto;
+    height: 70%;
     top: 90px;
     left: 140px;
-    box-shadow: 0px 0px 500px 20px #521212;
     animation: imageAnimation 3s forwards;
 }
-
 
 @keyframes imageAnimation{
     from {
@@ -83,7 +82,9 @@
 
 #border{
     position: absolute;
-    width: 27%;
+    width: 28%;
+    min-width: 420px;
+    min-height: 584px;
     height: 78%;
     top: 70px;
     left: 120px;
@@ -102,15 +103,40 @@
 
 h1{
     position: absolute;
-    font-family: "Brush Script MT";
-    font-size: 10vw;
+    font-family: "Colonna MT", serif;
+    font-size: 560%;
+    text-transform: uppercase;
+    z-index: 3;
+    font-weight: bolder;
+    top: 528px;
+    left: 151px;
+    color: white;
+    box-shadow: -1px -1px 200px 1px #000000;
+    animation: headersAnimation 3s forwards;
+}
+
+h2{
+    position: absolute;
+    font-family: "Colonna MT", serif;
+    font-size: 187%;
     text-transform: uppercase;
     z-index: 2;
-    line-height: 1;
     font-weight: bolder;
-    top: 470px;
-    left: 83px;
-    color: white;
+    top: 630px;
+    left: 324px;
+    color: #521212;
+    animation: headersAnimation 3s forwards;
+}
+
+@keyframes headersAnimation{
+    from {
+        transform: translateX(-650px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 
 .images{

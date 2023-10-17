@@ -83,8 +83,8 @@
 #border{
     position: absolute;
     width: 28%;
-    min-width: 420px;
-    min-height: 584px;
+    min-width: 421px;
+    min-height: 589px;
     height: 78%;
     top: 70px;
     left: 120px;
@@ -108,7 +108,7 @@ h1{
     text-transform: uppercase;
     z-index: 3;
     font-weight: bolder;
-    top: 528px;
+    top: 533px;
     left: 151px;
     color: white;
     box-shadow: -1px -1px 200px 1px #000000;
@@ -122,10 +122,25 @@ h2{
     text-transform: uppercase;
     z-index: 2;
     font-weight: bolder;
-    top: 630px;
+    top: 635px;
     left: 324px;
     color: #521212;
     animation: headersAnimation 3s forwards;
+}
+
+h3{
+    position: absolute;
+    font-family: Algerian, serif;
+    font-size: 400%;
+    text-transform: uppercase;
+    z-index: 2;
+    font-weight: bold;
+    top: 50px;
+    left: 905px;
+    background: linear-gradient(30deg, #521212 50%, #ffffff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #521212;
 }
 
 @keyframes headersAnimation{
@@ -140,9 +155,47 @@ h2{
 }
 
 .images{
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(2px);
     height: 100%;
 }
+
+.vl{
+    border-left: 1px solid white;
+    height: 800px;
+    position: absolute;
+    left: 640px;
+    top: 0;
+    filter: blur(1px);
+}
+
+.box{
+    position: absolute;
+    left: 750px;
+    top: 75px;
+    width: 600px;
+    height: 600px;
+    background: transparent;
+    border-radius: 50%;
+    backdrop-filter: blur(5px);
+}
+
+.white{
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 1);
+    filter: blur(1px);
+}
+
+.hl {
+    left: 810px;
+    top: 195px;
+    width: 480px;
+    border-top: 1px solid white;
+    position: absolute;
+    z-index: 3;
+    filter: blur(1px);
+}
+
+
+
 
 
 

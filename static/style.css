@@ -44,7 +44,7 @@ html {
     background-size: 650px 650px;
     animation: snowAnimation 4s linear;
     animation-iteration-count: infinite;
-    z-index: 3;
+    z-index: -1;
 }
 
 .snow:after{
@@ -152,9 +152,9 @@ html {
 
 .inst {
     width: 51px;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .mimimi {
-    width: 50px;
+    width: 60px;
 }

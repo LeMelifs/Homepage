@@ -64,10 +64,8 @@ body {
 #art {
     z-index: 1;
     position: absolute;
-    min-width: 390px;
-    min-height: 530px;
-    width: 25%;
-    height: 70%;
+    width: 390px;
+    height: 530px;
     top: 90px;
     left: 140px;
     animation: imageAnimation 3s forwards;
@@ -86,10 +84,8 @@ body {
 
 #border{
     position: absolute;
-    width: 28%;
-    min-width: 421px;
-    min-height: 589px;
-    height: 78%;
+    width: 421px;
+    height: 589px;
     top: 70px;
     left: 120px;
     z-index: 1;

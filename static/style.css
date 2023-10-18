@@ -72,6 +72,18 @@ html {
     width: 300px;
     box-shadow: 4px 5px 5px 2px black;
     margin: 7px;
+    animation: pictureAnimation 3s forwards;
+}
+
+@keyframes pictureAnimation {
+    from{
+        transform: translateY(-650px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 #main_section .name {
@@ -81,6 +93,18 @@ html {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 7px;
+    animation: nameAnimation 3s forwards;
+}
+
+@keyframes nameAnimation {
+    from{
+        transform: translateX(-650px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 #main_section .about {

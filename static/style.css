@@ -119,6 +119,7 @@ html {
 #main_section .contacts {
     width: 300px;
     text-align: center;
+    margin: 7px;
 }
 
 #main_section .number {
@@ -126,6 +127,7 @@ html {
     font-family: "Bookman Old Style", serif;
     text-decoration: none;
     color: black;
+    margin: 7px;
 }
 
 #main_section .mail {
@@ -133,22 +135,26 @@ html {
     font-family: "Bookman Old Style", serif;
     text-decoration: none;
     color: #521212;
+    margin: 7px;
 }
 
-#main_section .vk {
-    width: 70px;
-    margin-top: 0;
-    margin-left: 15px;
+.vk {
+    width: 50px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 10px;
 }
 
-#main_section .tg {
-    width: 70px;
+.tg {
+    width: 50px;
+    margin-right: 30px;
 }
 
-#main_section .inst {
-    width: 70px;
+.inst {
+    width: 51px;
+    margin-right: 30px;
 }
 
-#main_section .mimimi {
-    width: 90px;
+.mimimi {
+    width: 50px;
 }

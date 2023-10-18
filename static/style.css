@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+html {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snow, .snow:after, .snow:before{
+    content: "";
+    position: absolute;
+    top: -650px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:
+            radial-gradient(4px 4px at 100px 50px, #fff, transparent),
+            radial-gradient(6px 6px at 200px 150px, #fff, transparent),
+            radial-gradient(3px 3px at 300px 250px, #fff, transparent),
+            radial-gradient(4px 4px at 400px 350px, #fff, transparent),
+            radial-gradient(6px 6px at 500px 100px, #fff, transparent),
+            radial-gradient(5px 5px at 50px 200px, #fff, transparent),
+            radial-gradient(3px 3px at 150px 300px, #fff, transparent),
+            radial-gradient(4px 4px at 250px 400px, #fff, transparent),
+            radial-gradient(6px 6px at 350px 500px, #fff, transparent),
+            radial-gradient(5px 5px at 430px 700px, #fff, transparent),
+            radial-gradient(3px 3px at 450px 800px, #fff, transparent),
+            radial-gradient(4px 4px at 500px 670px, #fff, transparent),
+            radial-gradient(6px 6px at 70px 620px, #fff, transparent),
+            radial-gradient(3px 3px at 230px 500px, #fff, transparent),
+            radial-gradient(5px 5px at 530px 920px, #fff, transparent);
+    background-size: 650px 650px;
+    animation: snowAnimation 4s linear;
+    animation-iteration-count: infinite;
+    z-index: 3;
+}
+
+.snow:after{
+    margin-left: -250px;
+    opacity: 0.5;
+    filter: blur(2px);
+}
+
+.snow:before{
+    margin-left: -350px;
+    opacity: 0.7;
+    filter: blur(1px);
+}
+
+@keyframes snowAnimation {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(650px);
+    }
+}
+
+#main_section .profile {
+    width: 300px;
+    box-shadow: 4px 5px 5px 2px black;
+    margin: 7px;
+}
+
+#main_section .name {
+    font-size: 1.9em;
+    font-family: Algerian, serif;
+    background: linear-gradient(30deg, #521212 50%, #ffffff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 7px;
+}
+
+#main_section .about {
+    font-size: 1em;
+    font-family: Algerian, serif;
+    color: #521212;
+    box-shadow: 0 0 0 1px white;
+    width: 300px;
+    margin: 7px;
+}
+
+#main_section .contacts {
+    width: 300px;
+    text-align: center;
+}
+
+#main_section .number {
+    font-size: 1em;
+    font-family: "Bookman Old Style", serif;
+    text-decoration: none;
+    color: black;
+}
+
+#main_section .mail {
+    font-size: 1em;
+    font-family: "Bookman Old Style", serif;
+    text-decoration: none;
+    color: #521212;
+}
+
+#main_section .vk {
+    width: 70px;
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+#main_section .tg {
+    width: 70px;
+}
+
+#main_section .inst {
+    width: 70px;
+}
+
+#main_section .mimimi {
+    width: 90px;
+}

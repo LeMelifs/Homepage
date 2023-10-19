@@ -116,7 +116,7 @@ html {
     font-family: 'Cinzel Decorative', serif;
     color: white;
     font-weight: bold;
-    box-shadow: 0 0 0 1px white;
+    box-shadow: 0 0 0 2px white;
     width: 300px;
     margin: 7px;
 }

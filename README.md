@@ -4,4 +4,5 @@
 
 Просмотр сайта доступен по ссылке: https://blokhinavd.ru/
 
-![Эталонное отображение сайта, на заднем плане анимированный снег](https://github.com/LeMelifs/Homepage/blob/master/static/images/preview.png)
+Эталонное отображение сайта, на заднем плане анимированный снег:
+![Эталонное отображение сайта](https://github.com/LeMelifs/Homepage/blob/master/static/images/preview.png)

@@ -72,7 +72,7 @@ html {
     width: 300px;
     box-shadow: 4px 5px 5px 2px black;
     margin: 7px;
-    animation: pictureAnimation 3s forwards;
+    animation: pictureAnimation 2s forwards;
 }
 
 @keyframes pictureAnimation {
@@ -87,13 +87,15 @@ html {
 }
 
 #main_section .name {
-    font-size: 1.9em;
-    font-family: Algerian, serif;
-    background: linear-gradient(30deg, #521212 50%, #ffffff 50%);
+    font-size: 1.6em;
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: bold;
+    background: linear-gradient(30deg, #521212 40%, #ffffff 0%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 7px;
-    animation: nameAnimation 3s forwards;
+    animation: nameAnimation 2s forwards;
+    text-align: center;
 }
 
 @keyframes nameAnimation {
@@ -108,9 +110,11 @@ html {
 }
 
 #main_section .about {
+    text-align: center;
     font-size: 1em;
-    font-family: Algerian, serif;
-    color: #521212;
+    font-family: 'Cinzel Decorative', serif;
+    color: white;
+    font-weight: bold;
     box-shadow: 0 0 0 1px white;
     width: 300px;
     margin: 7px;
@@ -124,15 +128,16 @@ html {
 
 #main_section .number {
     font-size: 1em;
-    font-family: "Bookman Old Style", serif;
+    font-family: 'Cinzel Decorative', serif;
     text-decoration: none;
     color: black;
     margin: 7px;
+    font-weight: lighter;
 }
 
 #main_section .mail {
     font-size: 1em;
-    font-family: "Bookman Old Style", serif;
+    font-family: 'Cinzel Decorative', serif;
     text-decoration: none;
     color: #521212;
     margin: 7px;

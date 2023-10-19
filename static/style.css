@@ -96,6 +96,7 @@ html {
     margin: 7px;
     animation: nameAnimation 2s forwards;
     text-align: center;
+    width: 300px;
 }
 
 @keyframes nameAnimation {

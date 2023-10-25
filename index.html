@@ -5,27 +5,31 @@
     <link rel="stylesheet" href="static/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="static/images/background.jpg" fetchpriority="high">
+    <link rel="preload" href="static/images/veronika.png" fetchpriority="high">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
 <main>
     <section id="main_section">
         <div class="snow"></div>
-        <img src="static/images/veronika.png" class="profile">
+        <img fetchpriority="high" decoding="async" src="static/images/veronika.png" class="profile" alt="veronika">
         <div class="box white"></div>
         <p class="name">
             <b>Blokhina Veronika</b>
         </p>
         <p class="about" align="center">
-            Interested in: <br> programming, <br> sport-mafia, <br> poker
+            Interested in: <br> programming, <br> sports mafia, <br> poker
         </p>
         <p class=contacts>
             <a class="number" href="tel:+79146581599">+79146581599</a>
             <a class="mail" href="https://mail.yandex.ru/compose?mailto=blokhina.vd@students.dvfu.ru">blokhina.vd@students.dvfu.ru</a>
         </p>
+        <div class="container">
         <a href="https://vk.com/sweetcoffeewithmilk"><img class = "vk" src="static/images/vk.png" alt="vkontakte"></a>
         <a href="https://t.me/savemefrominsomnia"><img class = "tg" src="static/images/telegram.png" alt="telegram"></a>
         <a href="https://instagram.com/savemefrominsomnia?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr"><img class = "inst" src="static/images/instagram.png" alt="instagram"></a>
+        </div>
     </section>
 </main>
 </body>

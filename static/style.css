@@ -97,7 +97,6 @@ html {
     text-align: center;
     width: 300px;
     opacity: 1;
-    -webkit-animation-delay: 2s;
 }
 
 @keyframes nameAnimation{
